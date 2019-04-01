@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/mlichtblau/unicorn-adapter/issues"
   },
-  "homepage": "https://github.com/mlichtblau/unicorn-adapter#readme"
+  "homepage": "https://github.com/mlichtblau/unicorn-adapter#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
 }
