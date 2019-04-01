@@ -1,0 +1,27 @@
+{
+  "name": "unicorn-adapter",
+  "version": "1.0.0",
+  "description": "Easily connect to Unicorn, the event processing engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlichtblau/unicorn-adapter.git"
+  },
+  "keywords": [
+    "unicorn",
+    "event",
+    "processing",
+    "adapter",
+    "node",
+    "javascript"
+  ],
+  "author": "Marius Lichtblau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlichtblau/unicorn-adapter/issues"
+  },
+  "homepage": "https://github.com/mlichtblau/unicorn-adapter#readme"
+}
