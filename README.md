@@ -1,4 +1,6 @@
 # Unicorn Adapter
+![Travis (.org)](https://img.shields.io/travis/mlichtblau/unicorn-adapter.svg)
+[![Coverage Status](https://coveralls.io/repos/github/mlichtblau/unicorn-adapter/badge.svg?branch=master)](https://coveralls.io/github/mlichtblau/unicorn-adapter?branch=master)
 ![npm](https://img.shields.io/npm/v/unicorn-adapter.svg)
 ![NPM](https://img.shields.io/npm/l/unicorn-adapter.svg)
 ![Twitter Follow](https://img.shields.io/twitter/follow/lichtblau.svg?style=popout)
