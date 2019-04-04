@@ -26,6 +26,7 @@
   "homepage": "https://github.com/mlichtblau/unicorn-adapter#readme",
   "dependencies": {
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise": "^4.2.4",
+    "xml": "^1.0.1"
   }
 }

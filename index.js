@@ -1,64 +1,40 @@
-const request = require('request-promise');
-
-const exponentialBackoff = function (iteration, initialIntervalTime, maxTries, cb) {
-  const delay = Math.pow(2, iteration) * initialIntervalTime;
-  return cb().catch(error => {
-    if (iteration < maxTries) {
-      return setTimeout(() => exponentialBackoff(iteration + 1, initialIntervalTime, maxTries, cb), delay);
-    }
-  });
-};
-
+const SubscriptionService = require('./src/subscription-service');
+const PublishingService = require('./src/publishing-service');
 
 class UnicornAdapter {
-  static get unicornHeaders() {
-    return {
-      'Content-Type': 'application/json',
-      'Accept': 'text/plain'
-    }
-  };
-
   constructor(unicornUrl, callbackUrl, options) {
-    this.unicornUrl = unicornUrl;
-    this.callbackUrl = callbackUrl;
+    let maxTries;
     if (options) {
-      this.maxTries = options.maxTries || 7;
+      maxTries = options.maxTries || 7;
     } else {
-      this.maxTries = 7;
+      maxTries = 7;
     }
+    this.subscriptionService = new SubscriptionService(UnicornAdapter.notificationUrl(unicornUrl), callbackUrl, maxTries);
+    this.publishingService = new PublishingService(UnicornAdapter.eventUrl(unicornUrl));
   }
 
-  get notificationUrl() {
-    return `${this.unicornUrl}/webapi/REST/EventQuery/REST`
+  static notificationUrl(unicornUrl) {
+    return `${unicornUrl}/webapi/REST/EventQuery/REST`
+  }
+
+  static eventUrl(unicornUrl) {
+    return `${unicornUrl}/webapi/REST/Event`
   }
 
   subscribeToEvent(eventName, attributes = ['*'], callbackUrl) {
-    callbackUrl = callbackUrl || this.callbackUrl;
-    const attributesString = attributes.join(", ");
-    const esperQuery = `SELECT ${ attributesString } FROM ${ eventName }`;
-    return exponentialBackoff(1, 1000, this.maxTries, () => {
-      return this.createNotificationRule(esperQuery, callbackUrl)
-    })
+    return this.subscriptionService.subscribeToEvent(eventName, attributes, callbackUrl);
   }
 
   unsubscribeFromEvent(uuid) {
-    return this.deleteNotificationRule(uuid);
+    return this.subscriptionService.unsubscribeFromEvent(uuid);
   }
 
-  createNotificationRule(queryString, callbackUrl) {
-    const body = {
-      notificationPath: callbackUrl,
-      queryString
-    };
-    return request.post(this.notificationUrl, {
-      headers: UnicornAdapter.unicornHeaders,
-      json: true,
-      body
-    });
+  generateEvent(event, eventType, dataObjectState = '') {
+    return this.publishingService.generateChimeraEvent(event, eventType, dataObjectState);
   }
 
-  deleteNotificationRule(uuid) {
-    return request.delete(`${ this.notificationUrl }/${ uuid }`);
+  generateChimeraEvent(event, eventType, dataObjectState = '') {
+    return this.publishingService.generateChimeraEvent(event, eventType, dataObjectState);
   }
 }
 
