@@ -1,9 +1,9 @@
 # Unicorn Adapter
-![Travis (.org)](https://img.shields.io/travis/mlichtblau/unicorn-adapter.svg)
+[![Travis (.org)](https://img.shields.io/travis/mlichtblau/unicorn-adapter.svg)](https://travis-ci.org/mlichtblau/unicorn-adapter)
 [![Coverage Status](https://coveralls.io/repos/github/mlichtblau/unicorn-adapter/badge.svg?branch=master)](https://coveralls.io/github/mlichtblau/unicorn-adapter?branch=master)
-![npm](https://img.shields.io/npm/v/unicorn-adapter.svg)
+[![npm](https://img.shields.io/npm/v/unicorn-adapter.svg)](https://www.npmjs.com/package/unicorn-adapter)
 ![NPM](https://img.shields.io/npm/l/unicorn-adapter.svg)
-![Twitter Follow](https://img.shields.io/twitter/follow/lichtblau.svg?style=popout)
+[![Twitter Follow](https://img.shields.io/twitter/follow/lichtblau.svg?style=popout)](https://twitter.com/lichtblau)
 
 Unicorn Adapter is a node library to help subscribe to events in the event processing platform [Unicorn](https://github.com/bptlab/Unicorn).
 
