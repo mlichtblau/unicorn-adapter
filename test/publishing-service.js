@@ -1,5 +1,6 @@
 const expect = require('chai').expect;
 const sinon = require('sinon');
+const request = require('request-promise');
 const PublishingService = require('../src/publishing-service');
 
 describe('PublishingService', function () {
@@ -105,4 +106,27 @@ describe('PublishingService', function () {
       expect(result).to.have.string(`xsi:noNamespaceSchemaLocation="${ exampleEventType }.xsd"`);
     });
   });
+
+  describe('#sendEvent()', function () {
+    beforeEach(function () {
+      sinon.stub(request, 'post').resolvesArg(1);
+    });
+
+    afterEach(function () {
+      sinon.restore();
+    });
+
+    const exampleXml = '<key1>value1</key1>';
+
+    it('should have a Content-Type header', function () {
+      const $result = publishingService.sendEvent(exampleXml);
+      return expect($result).to.eventually.have.property('headers').that.has.property('Content-Type', 'application/xml');
+    });
+
+    it('should have body with event xml', function () {
+      const $result = publishingService.sendEvent(exampleXml);
+      return expect($result).to.eventually.have.property('body', exampleXml);
+    });
+  });
+
 });
