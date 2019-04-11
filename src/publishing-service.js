@@ -13,9 +13,9 @@ class PublishingService {
     });
   }
 
-  generateEvent(event, eventType, dataObjectState) {
+  generateEvent(event, eventType) {
     const convertedEvent = this.convertEvent(event);
-    const eventXml = PublishingService.generateEventXml(convertedEvent, eventType, dataObjectState);
+    const eventXml = PublishingService.generateEventXml(convertedEvent, eventType);
     return this.sendEvent(eventXml);
   }
 
