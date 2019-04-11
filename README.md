@@ -15,8 +15,14 @@ Unicorn Adapter is a node library to help subscribe to events in the event proce
 const UnicornAdapter = require('unicorn-adapter');
 
 let unicornAdapter = new UnicornAdapter("Your Unicorn Url", "Your callback Url", options);
-let uuid;
+```
 
+Available options:
+* `maxTries` - Number of retries
+
+### Subscribe to events
+```Javascript
+let uuid;
 unicornAdapter.subscribeToEvent('EventType').then(subscriptionId => {
     uuid = subscriptionUuid;
     console.log(`Subscription UUID: ${ subscriptionId }`);
@@ -25,8 +31,24 @@ unicornAdapter.subscribeToEvent('EventType').then(subscriptionId => {
 unicornAdapter.unsubscribeFromEvent(uuid);
 ```
 
-Available options:
-* `maxTries` - Number of retries
+### Publish events
+```Javascript
+const exampleEventType = 'exampleEventType';
+const exampleEvent = {
+  key1: 'value1',
+  key2: 'value2'
+};
+
+// Sent event to Unicorn
+unicornAdapter.generateEvent(exampleEvent, exampleEventType).then(eventId => {
+  console.log(`EventId: ${ eventId }`);
+});
+
+// Adds TimeStamp and DO_state to event before sending event to Unicorn
+unicornAdapter.generateChimeraEvent(exampleEvent, exampleEventType, 'state1').then(eventId => {
+  console.log(`EventId: ${ eventId }`);
+});
+```
 
 ## Authors
 
