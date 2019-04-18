@@ -1,4 +1,5 @@
 const request = require('request-promise');
+const queryString = require('esper-language').createEsperQueryForEventType;
 
 const exponentialBackoff = require('./helpers').exponentialBackoff;
 
@@ -9,12 +10,10 @@ class SubscriptionService {
     this.maxTries = maxTries;
   }
 
-  subscribeToEvent(eventName, attributes, callbackUrl) {
+  subscribeToEvent(eventName, attributes, filter, callbackUrl) {
     callbackUrl = callbackUrl || this.callbackUrl;
-    const attributesString = attributes.join(", ");
-    const esperQuery = `SELECT ${ attributesString } FROM ${ eventName }`;
     return exponentialBackoff(1, 1000, this.maxTries, () => {
-      return this.createNotificationRule(esperQuery, callbackUrl)
+      return this.createNotificationRule(queryString(eventName, attributes, filter), callbackUrl)
     })
   }
 

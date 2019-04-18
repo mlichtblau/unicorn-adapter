@@ -21,8 +21,8 @@ class UnicornAdapter {
     return `${unicornUrl}/webapi/REST/Event`
   }
 
-  subscribeToEvent(eventName, attributes = ['*'], callbackUrl) {
-    return this.subscriptionService.subscribeToEvent(eventName, attributes, callbackUrl);
+  subscribeToEvent(eventName, attributes = ['*'], filters = {}, callbackUrl) {
+    return this.subscriptionService.subscribeToEvent(eventName, attributes, filters, callbackUrl);
   }
 
   unsubscribeFromEvent(uuid) {

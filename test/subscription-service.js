@@ -77,7 +77,7 @@ describe('SubscriptionService', function () {
     const exampleAttributes = ['att1', 'att2'];
 
     it('should create right esper query', function () {
-      const $result = subscriptionService.subscribeToEvent(exampleEventType, exampleAttributes, subscriptionService.callbackUrl);
+      const $result = subscriptionService.subscribeToEvent(exampleEventType, exampleAttributes, {}, subscriptionService.callbackUrl);
       return expect($result).to.eventually.equal('SELECT att1, att2 FROM exampleEventType');
     });
   });
