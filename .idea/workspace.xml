@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6310a91-fe6d-4d29-b36a-18c66bc65915" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-840911813">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="1" />
+          <entry key="js" value="25" />
+          <entry key="json" value="5" />
+          <entry key="md" value="2" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="25" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="JavaScript Console" value="356" />
+          <entry key="gitignore" value="1" />
+          <entry key="js" value="14869" />
+          <entry key="json" value="147" />
+          <entry key="md" value="1254" />
+          <entry key="txt" value="749" />
+          <entry key="yml" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="147" />
+          <entry key="JavaScript" value="15241" />
+          <entry key="Markdown" value="1238" />
+          <entry key="PLAIN_TEXT" value="750" />
+          <entry key="YAML" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.merge" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/subscription-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/subscription-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/esper-language/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/helpers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/setup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1909">
+              <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>this</find>
+      <find>i</find>
+      <find>xhr</find>
+      <find>http</find>
+      <find>httpModule</find>
+      <find>request</find>
+      <find>eventually</find>
+      <find>event</find>
+      <find>called</find>
+      <find>SELECT</find>
+      <find>xml</find>
+      <find>subscrib</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/node_modules</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ci" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/unicorn-adapter.js" />
+        <option value="$PROJECT_DIR$/test/test.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/test/setup.js" />
+        <option value="$PROJECT_DIR$/src/helpers.js" />
+        <option value="$PROJECT_DIR$/test/helpers.js" />
+        <option value="$PROJECT_DIR$/test/publishing-service.js" />
+        <option value="$PROJECT_DIR$/src/publishing-service.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/esper/operator-map.js" />
+        <option value="$PROJECT_DIR$/src/esper/operators.js" />
+        <option value="$PROJECT_DIR$/src/esper/index.js" />
+        <option value="$PROJECT_DIR$/src/subscription-service.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/test/subscription-service.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="unicorn-adapter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicorn-adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unicorn-adapter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicorn-adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unicorn-adapter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicorn-adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="subs&#9;FILE&#9;file:///Users/marius/Documents/Studium/25 Bachelorprojekt/code/unicorn-adapter/test/subscription-service.js&#10;readme&#9;FILE&#9;file:///Users/marius/Documents/Studium/25 Bachelorprojekt/code/unicorn-adapter/README.md&#10;pub&#9;FILE&#9;file:///Users/marius/Documents/Studium/25 Bachelorprojekt/code/unicorn-adapter/src/publishing-service.js&#10;pack&#9;FILE&#9;file:///Users/marius/Documents/Studium/25 Bachelorprojekt/code/unicorn-adapter/package.json&#10;publish&#9;FILE&#9;file:///Users/marius/Documents/Studium/25 Bachelorprojekt/code/unicorn-adapter/test/publishing-service.js&#10;read&#9;FILE&#9;file:///Users/marius/Documents/Studium/25 Bachelorprojekt/code/unicorn-adapter/README.md&#10;packa&#9;FILE&#9;file:///Users/marius/Documents/Studium/25 Bachelorprojekt/code/unicorn-adapter/package.json&#10;publis&#9;null&#9;null&#10;index&#9;FILE&#9;file:///Users/marius/Documents/Studium/25 Bachelorprojekt/code/unicorn-adapter/index.js" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.11.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.Unnamed">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="src/esper/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="PublishingService.#convertEvent().when flat event.should return an array" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/publishing-service.js</test-file>
+      <test-names>
+        <name value="PublishingService" />
+        <name value="#convertEvent()" />
+        <name value="when flat event" />
+        <name value="should return an array" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PublishingService.#sendEvent().should have header" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/publishing-service.js</test-file>
+      <test-names>
+        <name value="PublishingService" />
+        <name value="#sendEvent()" />
+        <name value="should have header" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PublishingService.static #generateEventXml().should return an xml with the correct xml declaration" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/publishing-service.js</test-file>
+      <test-names>
+        <name value="PublishingService" />
+        <name value="static #generateEventXml()" />
+        <name value="should return an xml with the correct xml declaration" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="SubscriptionService.should post once" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/subscription-service.js</test-file>
+      <test-names>
+        <name value="SubscriptionService" />
+        <name value="should post once" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="#exponentialBackoff().when eventually successful.should resolve eventually" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/helpers.js</test-file>
+      <test-names>
+        <name value="#exponentialBackoff()" />
+        <name value="when eventually successful" />
+        <name value="should resolve eventually" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="Mocha.PublishingService.#convertEvent().when flat event.should return an array" />
+      <item itemvalue="Mocha.PublishingService.static #generateEventXml().should return an xml with the correct xml declaration" />
+      <item itemvalue="Mocha.#exponentialBackoff().when eventually successful.should resolve eventually" />
+      <item itemvalue="Mocha.PublishingService.#sendEvent().should have header" />
+      <item itemvalue="Mocha.SubscriptionService.should post once" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.SubscriptionService.should post once" />
+        <item itemvalue="Mocha.PublishingService.#sendEvent().should have header" />
+        <item itemvalue="Mocha.PublishingService.static #generateEventXml().should return an xml with the correct xml declaration" />
+        <item itemvalue="Mocha.PublishingService.#convertEvent().when flat event.should return an array" />
+        <item itemvalue="Mocha.#exponentialBackoff().when eventually successful.should resolve eventually" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6310a91-fe6d-4d29-b36a-18c66bc65915" name="Default Changelist" comment="" />
+      <created>1554112944302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554112944302</updated>
+      <workItem from="1554112954883" duration="15767000" />
+      <workItem from="1554289548435" duration="7924000" />
+      <workItem from="1554366207193" duration="371000" />
+      <workItem from="1554366721583" duration="17774000" />
+      <workItem from="1554720803258" duration="3915000" />
+      <workItem from="1554734931864" duration="5413000" />
+      <workItem from="1554968656570" duration="917000" />
+      <workItem from="1554983066171" duration="2300000" />
+      <workItem from="1555332770519" duration="625000" />
+      <workItem from="1555395770576" duration="13490000" />
+    </task>
+    <task id="LOCAL-00001" summary="🎉 Initial Commit">
+      <created>1554115502567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554115502567</updated>
+    </task>
+    <task id="LOCAL-00002" summary="✨ Allow subscribing and unsubscribing from Unicorn Events">
+      <created>1554127283945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554127283945</updated>
+    </task>
+    <task id="LOCAL-00003" summary="📚 Add README.md">
+      <created>1554128276770</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554128276771</updated>
+    </task>
+    <task id="LOCAL-00004" summary="📚 Add Badges">
+      <created>1554129384329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554129384329</updated>
+    </task>
+    <task id="LOCAL-00005" summary="📚 Add Badges and specify Javascript">
+      <created>1554129629640</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554129629640</updated>
+    </task>
+    <task id="LOCAL-00006" summary="✨ Add Publishing Service to create Unicorn Events from JSON Objects.">
+      <created>1554370902768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554370902768</updated>
+    </task>
+    <task id="LOCAL-00007" summary="🚨 Test Publishing Service">
+      <created>1554380310167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554380310167</updated>
+    </task>
+    <task id="LOCAL-00008" summary="🔧 Add Travis config">
+      <created>1554380823981</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554380823981</updated>
+    </task>
+    <task id="LOCAL-00009" summary="🔧 Add Coveralls">
+      <created>1554381303357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554381303357</updated>
+    </task>
+    <task id="LOCAL-00010" summary="🔧 Add Coveralls">
+      <created>1554381411640</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554381411640</updated>
+    </task>
+    <task id="LOCAL-00011" summary="🔧 Add Coveralls">
+      <created>1554381778322</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554381778322</updated>
+    </task>
+    <task id="LOCAL-00012" summary="🔧 Add Coveralls">
+      <created>1554382604642</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554382604642</updated>
+    </task>
+    <task id="LOCAL-00013" summary="📚 Make Badges clickable">
+      <created>1554383277080</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554383277080</updated>
+    </task>
+    <task id="LOCAL-00014" summary="🐛 Fix bug, where error was not returned. Add tests.">
+      <created>1554389037287</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554389037287</updated>
+    </task>
+    <task id="LOCAL-00015" summary="🚨 Test deletion of notification rule">
+      <created>1554735337323</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554735337323</updated>
+    </task>
+    <task id="LOCAL-00016" summary="🚨 Add missing tests for publishing and subscription services">
+      <created>1554814940781</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554814940781</updated>
+    </task>
+    <task id="LOCAL-00017" summary="♻️ Remove dataObjectState from generateEvent">
+      <created>1554969416594</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554969416594</updated>
+    </task>
+    <task id="LOCAL-00018" summary="📚 Add example for publishing an event">
+      <created>1554969446935</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554969446935</updated>
+    </task>
+    <task id="LOCAL-00019" summary="📚 Add example for publishing an event">
+      <created>1554969493252</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1554969493252</updated>
+    </task>
+    <task id="LOCAL-00020" summary="✨ Allow filters when subscribing to an event">
+      <created>1555595970627</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555595970627</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PublishingService_#generateChimeraEvent()_should_add_GeneratedTimestamp_property_to_event - 2019.04.04 at 14h 00m 09s.xml">
+      <configuration name="PublishingService.#generateChimeraEvent().should add GeneratedTimestamp property to event" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PublishingService_#generateChimeraEvent()_should_add_GeneratedTimestamp_property_to_event - 2019.04.04 at 14h 00m 11s.xml">
+      <configuration name="PublishingService.#generateChimeraEvent().should add GeneratedTimestamp property to event" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PublishingService - 2019.04.04 at 14h 01m 27s.xml">
+      <configuration name="PublishingService" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PublishingService - 2019.04.04 at 14h 02m 06s.xml">
+      <configuration name="PublishingService" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="#exponentialBackoff()_when_eventually_successful_should_resolve_eventually - 2019.04.04 at 15h 39m 15s.xml">
+      <configuration name="#exponentialBackoff().when eventually successful.should resolve eventually" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PublishingService_#convertEvent()_when_flat_event_should_return_an_array - 2019.04.08 at 13h 14m 53s.xml">
+      <configuration name="PublishingService.#convertEvent().when flat event.should return an array" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PublishingService_static_#generateEventXml()_should_return_an_xml_with_the_correct_xml_declaration - 2019.04.08 at 13h 15m 18s.xml">
+      <configuration name="PublishingService.static #generateEventXml().should return an xml with the correct xml declaration" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PublishingService_#sendEvent()_should_have_header - 2019.04.08 at 13h 20m 33s.xml">
+      <configuration name="PublishingService.#sendEvent().should have header" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PublishingService_#sendEvent()_should_have_header - 2019.04.08 at 13h 20m 42s.xml">
+      <configuration name="PublishingService.#sendEvent().should have header" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="SubscriptionService_should_post_once - 2019.04.08 at 13h 36m 09s.xml">
+      <configuration name="SubscriptionService.should post once" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="68496000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24861" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32854578" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4467787" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.56162465" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3292797" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1904762" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Initial Commit" />
+    <MESSAGE value="✨ Allow subscribing and unsubscribing from Unicorn Events" />
+    <MESSAGE value=" Add README.md" />
+    <MESSAGE value=" Add Badges" />
+    <MESSAGE value=" Set Code to Javascript" />
+    <MESSAGE value=" Set Code to Javascript and add badges" />
+    <MESSAGE value=" Add Badges and specify Javascript" />
+    <MESSAGE value="✨ Add Publishing Service to create Unicorn Events from JSON Objects." />
+    <MESSAGE value=" Test Publishing Service" />
+    <MESSAGE value=" Add Travis config" />
+    <MESSAGE value=" Add Coveralls" />
+    <MESSAGE value=" Make Badges clickable" />
+    <MESSAGE value=" Fix bug, where error was not returned. Add tests." />
+    <MESSAGE value=" Test deletion of notification rule" />
+    <MESSAGE value=" Add missing tests for publishing and subscription services" />
+    <MESSAGE value="♻️ Remove dataObjectState from generateEvent" />
+    <MESSAGE value=" Add example for publishing an event" />
+    <MESSAGE value="✨ Allow filters when subscribing to an event" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ Allow filters when subscribing to an event" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/esper/index.js</url>
+          <line>88</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/esper/index.js</url>
+          <line>31</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5957">
+          <caret line="259" column="52" selection-start-line="259" selection-start-column="52" selection-end-line="259" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.js" />
+    <entry file="file://$PROJECT_DIR$/coverage/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/request/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="228" column="26" lean-forward="true" selection-start-line="228" selection-start-column="26" selection-end-line="228" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/request/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1787" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/publishing-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2691">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/publishing-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/esper/operators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/esper/operator-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/esper/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/subscription-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/esper-language/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/subscription-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
