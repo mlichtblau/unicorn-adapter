@@ -50,6 +50,34 @@ unicornAdapter.generateChimeraEvent(exampleEvent, exampleEventType, 'state1').th
 });
 ```
 
+## More details
+
+#### `UnicornAdapter(unicornUrl, callbackUrl, options)`
+
+* Initialize a new UnicornAdapter instance.
+* Requires the Unicorn url, a callback url and an options object. Currently the only supported option is `maxTries`, which determines how often creating a notification rule should be retried before giving up.
+
+#### `subscribeToEvent(eventName, attributes = ['*'], filters = {}, callbackUrl)`
+
+* Subscribes to a Unicorn event of event type `eventName`.
+* `attributes` is an array of attribute names which are included in the notification payload.
+* `filters` allow to better filter events using the [`esper-language`](https://github.com/mlichtblau/esper-language) package.
+* `callbackUrl` is optional and overwrites the callback url set on initialisation.
+* returns a Promise resolving to the UUID of the notification rule created in Unicorn
+
+#### `unsubscribeFromEvent(uuid)`
+
+* Deletes the notification rule with the given UUID in Unicorn
+* returns empty Promise, which resolves after successful deletion or rejects otherwise
+
+#### `generateEvent(event, eventType, dataObjectState = '')`
+
+* generates event in Unicorn
+* `event` is a JSON object that should match the structure defined by the event type definition
+* automatically converts event to XML, that's understandable by Unicorn
+* `eventType` is the event type of the event, which is needed by Unicorn
+* `dataObjectState` is only helpful when working with Chimera. It is just a shortcut for setting the `DO_state` attribute of an event
+
 ## Authors
 
 * **Marius Lichtblau** - [mlichtblau](https://github.com/mlichtblau) - [lichtblau.io](https://lichtblau.io) - [@lichtblau](https://twitter.com/lichtblau)
